@@ -2,11 +2,11 @@
 
 A Java implementation of the popular 2048 puzzle game using the Processing library for graphics and Gradle as a dependency manager.
 
-## 🎮 Game Description
+## Game Description
 
 2048 is a single-player sliding block puzzle game. The game's objective is to slide numbered tiles on a grid to combine them to create a tile with the number 2048. The game is won when a tile with a value of 2048 appears on the board.
 
-## ✨ Features
+## Features
 
 - **Classic 2048 Gameplay**: Slide tiles to combine matching numbers
 - **Customizable Grid Size**: Play with different board sizes (2x2 to 7x7)
@@ -17,19 +17,19 @@ A Java implementation of the popular 2048 puzzle game using the Processing libra
 - **Game Over Detection**: Automatic game over detection when no moves are possible
 - **Modern UI**: Clean, intuitive interface with proper color scheme
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Java 8**: Core programming language
 - **Processing 3.3.7**: Graphics library for rendering and user interaction
 - **Gradle**: Build system and dependency management
 - **JUnit 5**: Unit testing framework
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Java 8 or higher
 - Gradle (optional - wrapper is included)
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 1. **Clone the repository**:
    ```bash
@@ -52,7 +52,7 @@ A Java implementation of the popular 2048 puzzle game using the Processing libra
    gradle run --args="7"
    ```
 
-## 🎯 How to Play
+## How to Play
 
 ### Controls
 - **Arrow Keys**: Move tiles in the corresponding direction
@@ -71,7 +71,7 @@ A Java implementation of the popular 2048 puzzle game using the Processing libra
 - The score is the sum of all merged tile values
 - Your best score is automatically saved
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 2048-Game/
@@ -88,7 +88,7 @@ A Java implementation of the popular 2048 puzzle game using the Processing libra
 └── README.md                         # This file
 ```
 
-## 🎨 Key Components
+## Key Components
 
 ### App.java
 - Main game logic and Processing framework integration
@@ -128,14 +128,14 @@ gradle run --args="7"  # 7x7 grid
 - **Game Over Detection**: Automatically detects when no moves are possible
 - **Score Calculation**: Tracks points for each successful merge
 
-## 🧪 Testing
+## Testing
 
 Run the test suite:
 ```bash
 gradle test
 ```
 
-## 📦 Building JAR
+## Building JAR
 
 Create an executable JAR file:
 ```bash
@@ -147,7 +147,7 @@ The JAR file will be created in `build/libs/` and can be run with:
 java -jar build/libs/2048-Game-1.0.jar
 ```
 
-## 🎯 Future Enhancements
+## Future Enhancements
 
 Potential improvements for future versions:
 - Save/load game state
@@ -158,7 +158,7 @@ Potential improvements for future versions:
 - Touch support for mobile devices
 - AI solver demonstration
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -166,11 +166,11 @@ Potential improvements for future versions:
 4. Add tests for new functionality
 5. Submit a pull request
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Original 2048 game by Gabriele Cirulli
 - Processing library for graphics and interaction
