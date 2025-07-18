@@ -103,7 +103,7 @@ A Java implementation of the popular 2048 puzzle game using the Processing libra
 - Manages tile appearance and color schemes
 - Implements visual effects and hover states
 
-## 🎮 Game Features in Detail
+## Game Features in Detail
 
 ### Customizable Grid Size
 The game supports different board sizes from 2x2 to 7x7. The maximum size is limited to 7x7 to ensure the game board fits comfortably on most desktop screens. You can specify the size when launching:
